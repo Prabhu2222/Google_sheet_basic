@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section class="bigHead">
+        
+            <div class="navigation">
+                <div id="navigaiton-sticky-div">
+                <span>File</span>
+                <span>Home</span>
+                <span>Insert</span>
+                <span>Layout</span>
+                <span>Help</span>
+               </div>
+            </div>
+     
+    <div id="tool-options">
+        <div id="tool-options-sticky-div">
+        <div id="font-styling-div">
+            <button id="bold-btn" class="font-styling-div-btns"><i class="fa-solid fa-bold"></i></button>
+            <button id="italic-btn" class="font-styling-div-btns"><i class="fa-solid fa-italic"></i></button>
+            <button id="underline-btn" class="font-styling-div-btns"><i class="fa-solid fa-underline"></i></button>
+        </div>
+
+
+        <div id="text-align-div">
+            <button id="text-align-left-btn" class="text-align-div-btns active-cell"> <i
+                    class="fa-solid fa-align-left"></i></button>
+            <button id="text-align-center-btn" class="text-align-div-btns"><i
+                    class="fa-solid fa-align-justify"></i></button>
+            <button id="text-align-right-btn" class="text-align-div-btns"><i
+                    class="fa-solid fa-align-right"></i></button>
+        </div>
+
+
+        <div id="coloring-div">
+
+
+            <label id="for-back-ground-color" for="back-ground-color-btn-label-input"><i
+                    class="fa-solid fa-fill-drip"></i></label>
+            <input type="color" id="back-ground-color-btn-label-input" style="display: none;">
+
+
+
+            <label id="for-text-color" for="text-color-btn-label">
+                <i class="fa-sharp fa-solid fa-font"></i>
+                <i class="fa-solid fa-minus fa-xl"></i>
+            </label>
+            <input type="color" id="text-color-btn-label" style="width:0;height:0">
+
+
+        </div>
+
+        <div id="font-family-size-div" style="font-family:monospace">
+
+
+            <select name="font-family-select" id="font-family">
+                <option value="Tahoma"> Tahoma</option>  
+                <option value="Arial">Arial</option>
+                <option value="Georgia">Georgia</option>
+                <option value="sans-serif">sans-serif</option>
+                <option value="monospace">monospace</option>
+            </select>
+
+            <select name="font-size-select" id="font-size">
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="16" selected> 16</option>
+                <option value="20">20</option>
+                <option value="24" >24</option>
+            </select>
+
+        </div>
+    </div>
+
+
+    </div>
+    <div id="options">
+        <div id="options-sticky-div">
+        <span id="active-cell">NULL</span>
+        <span id="fx">fx</span>
+        <span id="space"></span>
+        </div>
+    </div>
+
+</section>
+
+    <section id="table-section">
+        <div id="header"></div>
+        <div id="body"></div>
+    </section>
+    <script src="option.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
